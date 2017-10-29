@@ -1,0 +1,64 @@
+$color: cyan;
+$color2: coral;
+$borderColor: solid black;
+$padding: 4px;
+
+a
+{
+    font-weight: bold;
+    &:hover
+    {
+        font-style: italic;
+        background-color: yellow;
+    }
+}
+
+.header
+{
+    text-align: center;
+}
+
+.warning
+{
+    text-align: center;
+    background-color: yellow;
+}
+
+.danger
+{
+    @extend .warning;
+    background-color: lightsalmon;
+    font:
+    {
+        style: italic;
+        weight: bold;   
+    }
+}
+
+table
+{
+    width: 100%;
+}
+
+table, th, td
+{   
+    border:
+    {
+        top: 2px $borderColor;
+        right: 4px $borderColor;
+        left: 4px $borderColor;
+        bottom: 2px $borderColor;
+        collapse: collapse;
+    }
+    padding:
+    {
+        top: $padding;
+        bottom: $padding;
+    }
+    .evenCell
+    {
+        background-color: $color2;
+    }
+}
+
+@import "Exploration3Page2.scss";

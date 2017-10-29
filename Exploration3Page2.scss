@@ -1,0 +1,18 @@
+#Page2Header
+{
+    @extend .header;
+    
+    font-style: italic;
+}
+
+#table2
+{   
+    td
+    {
+        text-align: center;
+    }
+    .oddCell
+    {
+        background-color: $color;
+    }
+}

@@ -1,0 +1,41 @@
+a {
+  font-weight: bold; }
+  a:hover {
+    font-style: italic;
+    background-color: yellow; }
+
+.header, #Page2Header {
+  text-align: center; }
+
+.warning, .danger {
+  text-align: center;
+  background-color: yellow; }
+
+.danger {
+  background-color: lightsalmon;
+  font-style: italic;
+  font-weight: bold; }
+
+table {
+  width: 100%; }
+
+table, th, td {
+  border-top: 2px solid black;
+  border-right: 4px solid black;
+  border-left: 4px solid black;
+  border-bottom: 2px solid black;
+  border-collapse: collapse;
+  padding-top: 4px;
+  padding-bottom: 4px; }
+  table .evenCell, th .evenCell, td .evenCell {
+    background-color: coral; }
+
+#Page2Header {
+  font-style: italic; }
+
+#table2 td {
+  text-align: center; }
+#table2 .oddCell {
+  background-color: cyan; }
+
+/*# sourceMappingURL=Exploration3.css.map */
